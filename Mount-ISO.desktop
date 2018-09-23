@@ -6,9 +6,9 @@ Name[C]=Mount ISO
 ToolbarLabel[en_US]=Mount ISO
 ToolbarLabel[en]=Mount ISO
 ToolbarLabel[C]=Mount ISO
-Icon[en_US]=/usr/share/icons/mate/16x16/actions/redo.png
-Icon[en]=/usr/share/icons/mate/16x16/actions/redo.png
-Icon[C]=/usr/share/icons/mate/16x16/actions/redo.png
+Icon[en_US]=redo
+Icon[en]=redo
+Icon[C]=redo
 Profiles=profile-zero;
 
 [X-Action-Profile profile-zero]

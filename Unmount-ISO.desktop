@@ -2,9 +2,9 @@
 Type=Action
 TargetLocation=true
 TargetContext=false
-Icon[en_US]=/usr/share/icons/mate/16x16/actions/media-eject.png
-Icon[en]=/usr/share/icons/mate/16x16/actions/media-eject.png
-Icon[C]=/usr/share/icons/mate/16x16/actions/media-eject.png
+Icon[en_US]=media-eject
+Icon[en]=media-eject
+Icon[C]=media-eject
 ToolbarLabel[en_US]=Unmount
 ToolbarLabel[en]=Unmount
 ToolbarLabel[C]=Unmount

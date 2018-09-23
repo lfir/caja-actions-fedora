@@ -1,0 +1,19 @@
+[Desktop Entry]
+Type=Action
+Name[en_US]=Edit as root
+Name[en]=Edit as root
+Name[C]=Edit as root
+Icon[en_US]=document-edit-symbolic
+Icon[en]=document-edit-symbolic
+Icon[C]=document-edit-symbolic
+ToolbarLabel[en_US]=Edit as root
+ToolbarLabel[en]=Edit as root
+ToolbarLabel[C]=Edit as root
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+Name[en_US]=Default profile
+Name[en]=Default profile
+Name[C]=Default profile
+Exec=beesu pluma %f
+MimeTypes=text/plain;application/x-shellscript;

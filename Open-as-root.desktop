@@ -1,0 +1,19 @@
+[Desktop Entry]
+Type=Action
+Name[en_US]=Open as root
+Name[en]=Open as root
+Name[C]=Open as root
+Icon[en_US]=gtk-open
+Icon[en]=gtk-open
+Icon[C]=gtk-open
+ToolbarLabel[en_US]=Open as root
+ToolbarLabel[en]=Open as root
+ToolbarLabel[C]=Open as root
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+Name[en_US]=Default profile
+Name[en]=Default profile
+Name[C]=Default profile
+Exec=beesu caja %f
+MimeTypes=inode/directory;

@@ -1,0 +1,20 @@
+[Desktop Entry]
+Type=Action
+TargetLocation=true
+TargetContext=false
+Icon[en_US]=/usr/share/icons/mate/16x16/actions/media-eject.png
+Icon[en]=/usr/share/icons/mate/16x16/actions/media-eject.png
+Icon[C]=/usr/share/icons/mate/16x16/actions/media-eject.png
+ToolbarLabel[en_US]=Unmount
+ToolbarLabel[en]=Unmount
+ToolbarLabel[C]=Unmount
+Name[en_US]=Unmount
+Name[en]=Unmount
+Name[C]=Unmount
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+Exec=beesu umount /mnt/temp0
+Name[en_US]=Default profile
+Name[en]=Default profile
+Name[C]=Default profile

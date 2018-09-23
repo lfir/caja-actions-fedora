@@ -1,0 +1,19 @@
+[Desktop Entry]
+Type=Action
+Name[en_US]=Mount ISO
+Name[en]=Mount ISO
+Name[C]=Mount ISO
+ToolbarLabel[en_US]=Mount ISO
+ToolbarLabel[en]=Mount ISO
+ToolbarLabel[C]=Mount ISO
+Icon[en_US]=/usr/share/icons/mate/16x16/actions/redo.png
+Icon[en]=/usr/share/icons/mate/16x16/actions/redo.png
+Icon[C]=/usr/share/icons/mate/16x16/actions/redo.png
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+Name[en_US]=Mount ISO
+Name[en]=Mount ISO
+Name[C]=Mount ISO
+Exec=beesu mount %f /mnt/temp0
+MimeTypes=application/x-cd-image;
